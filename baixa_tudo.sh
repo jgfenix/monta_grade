@@ -4,6 +4,7 @@
 
 export LANG=C.UTF-8
 arq_temp="/tmp/temporario.txt" #arquivo temporario para extrair a parte util da página
+mkdir materias
 
 while read linha ; do
 	echo "baixando ${linha%%.*}" #lendo do arquivo relacao_materias.txt
